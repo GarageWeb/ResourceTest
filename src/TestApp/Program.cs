@@ -7,8 +7,8 @@ namespace TestApp
     {
         public static void Main(string[] args)
         {
-            var mike = Resources.Resource.ResourceManager.GetString("test");
-            Console.WriteLine(mike);
+            var txt = Resources.Resource.ResourceManager.GetString("test");
+            Console.WriteLine(txt);
         }
     }
 }
